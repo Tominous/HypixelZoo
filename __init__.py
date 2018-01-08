@@ -17,3 +17,18 @@ def play(tune):
     gather.playt(url)
 
     return response
+
+@app.route("/", methods = ['GET', 'POST'])
+def generate():
+    menu = "Welcome to the Hypixel Zoo please press a number!"
+
+    for idx, song in enumerate(url):
+        if song is None:
+            continue
+
+            menu += "To listen to the song please press any button!"
+
+            return menu;
+
+        if __name__ == "__main__":
+            app.run()
