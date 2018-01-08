@@ -5,6 +5,7 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="flask" />
+          <option value="http.*" />
         </list>
       </option>
     </inspection_tool>
