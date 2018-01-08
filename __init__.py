@@ -14,7 +14,7 @@ def play(tune):
     response = twiml.Response()
 
     gather = response.gather(numDigits = 1, timeout = 10)
-    gather.playt(url)
+    gather.play(url)
 
     return response
 
@@ -28,7 +28,7 @@ def generate():
 
             menu += "To listen to the song please press any button!"
 
-            return menu;
+            return menu
 
         if __name__ == "__main__":
             app.run()
